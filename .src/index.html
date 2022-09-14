@@ -1,0 +1,216 @@
+@@include('_header.html')
+
+<main>
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 offset-md-1">
+                    <h1>Недвижимость <br>Санкт-Петербурга <br>и Москвы</h1>
+                    <form method="post">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                                <div class="form-group">
+                                    <label for="city">Выбрать город</label>
+                                    <select name="city" id="city" class="custom-select">
+                                        <option value="city1">Москва</option>
+                                        <option value="city2">Санкт-Петербург</option>
+                                        <option value="city3">Владивосток</option>
+                                        <option value="city4">Оренбург</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                                <div class="form-group">
+                                    <label for="email">Ваш e-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="Введите Вашу почту"
+                                           class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-space">
+                            <button type="submit" class="btn btn-main btn-lg">Заказать консультацию</button>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="html">
+                            <label for="html">Отправляя нам данную форму вы соглашаетесь с <br><a href="#!">политикой
+                                конфиденциальности</a></label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4">
+                    <img src="img/illustration.svg" alt="illustration" title="illustration" class="img-fill">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section slider-section">
+        <div class="global-title text-center">
+            Обычный слайдер
+        </div>
+        <div class="slider-container">
+            <div class="swiper slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/slide1.jpg" alt="tower" title="residential-complex moscow">
+                        <div class="rating">
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide2.jpg" alt="tower" title="residential-complex orenburg">
+                        <div class="rating">
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide3.jpg" alt="tower" title="residential-complex Mordor">
+                        <div class="rating">
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star"></i>
+                            <i class="icon icon-star"></i>
+                            <i class="icon icon-star"></i>
+                            <i class="icon icon-star"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide1.jpg" alt="tower" title="residential-complex moscow">
+                        <div class="rating">
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star"></i>
+                            <i class="icon icon-star"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide2.jpg" alt="tower" title="residential-complex orenburg">
+                        <div class="rating">
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star"></i>
+                            <i class="icon icon-star"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide3.jpg" alt="tower" title="residential-complex Mordor">
+                        <div class="rating">
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star active"></i>
+                            <i class="icon icon-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-4 offset-md-1">
+                    <div class="progress">
+                        <p class="percent"><span class="count">5</span> %</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <button class="btn btn-main btn-lg percent-trigger">+ 48 %</button>
+                        <p class="ms-3 ms-lg-4 my-0">При нажатии на кнопку прогрессбар заполняется на столько процентов, сколько
+                            указано на кнопке</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 offset-lg-1 ps-4 ps-lg-0">
+                    <div class="fz-20 light lh-17">
+                        Большинство онкологических пациентов испытывают страх перед неизвестностью того, что их ожидает
+                        в процессе лечения рака.
+                    </div>
+                    <br>
+                    <div class="accordion">
+                        <div class="accordion-content">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
+                                corporis,
+                                deserunt ducimus fugit inventore modi numquam quasi qui quos saepe sit sunt suscipit,
+                                vitae
+                                voluptatum! Consectetur rerum saepe veritatis!
+                            </div>
+                        </div>
+                        <button class="accordion-trigger">Подробнее <i class="icon icon-chevron-down"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section map">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1 position-relative">
+                    <a
+                            href="https://yandex.kz/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#333;font-size:12px;position:absolute;top:0px; z-index: 2;">Санкт‑Петербург</a><a
+                        href="https://yandex.kz/maps/2/saint-petersburg/house/vladimirskiy_prospekt_23/Z0kYdQNmT0EDQFtjfXVzeX1qYA==/?ll=30.348917%2C59.927988&utm_medium=mapframe&utm_source=maps&z=16.1"
+                        style="color:#333;font-size:12px;position:absolute;top:14px; z-index: 2;">Владимирский проспект, 23 —
+                    Яндекс Карты</a>
+                    <iframe src="https://yandex.kz/map-widget/v1/-/CCUVJUq0dC" class="yandex-map" frameborder="1"
+                            allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section cards-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-12 offset-md-1 offset-lg-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-2 col-md-33 offset-lg-1">
+                            <div class="card card-once">
+                                <p class="card-title">3,000</p>
+                                <p class="card-subtitle">Агенств</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-33">
+                            <div class="card card-once">
+                                <p class="card-title">10,000</p>
+                                <p class="card-subtitle">Партнеров</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-33">
+                            <div class="card card-once">
+                                <p class="card-title">80,000</p>
+                                <p class="card-subtitle">Квартир в базе</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-33">
+                            <div class="card card-once">
+                                <p class="card-title">100+</p>
+                                <p class="card-subtitle">Застройщиков</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-33">
+                            <div class="card card-once">
+                                <p class="card-title">200</p>
+                                <p class="card-subtitle">Сотрудников</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+@@include('_footer.html')
